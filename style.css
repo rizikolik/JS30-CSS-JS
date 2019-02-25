@@ -1,0 +1,32 @@
+
+body{
+    background:#193042;
+    color:white;
+    font-size: 3em;
+
+    text-align: center;
+}
+img{
+    width:100%;
+
+}
+.color{
+    color:var(--base);
+}
+
+@media (max-width:800px){
+    body{
+        font-size: 1em;
+    }
+}
+:root{                     /*transform  begins here*/
+    --spacing:10px;
+    --blur:0px;
+    --base:#ffc600;
+}
+img{
+background:var(--base);
+filter:blur(var(--blur));
+padding:var(--spacing);
+
+}
