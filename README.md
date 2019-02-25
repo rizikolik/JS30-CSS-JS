@@ -1,1 +1,1 @@
-# JS30-CSS-JS
+# JS30-CSS-JS project learned by WEB BOS
