@@ -19,7 +19,16 @@ img{
         font-size: 1em;
     }
 }
-:root{                     /*transform  begins here*/
+@media (max-width:780px){
+    
+  img{
+      width:80%;
+    }
+}
+    
+    
+    
+    :root{                     /*transform  begins here*/
     --spacing:10px;
     --blur:0px;
     --base:#ffc600;
