@@ -29,7 +29,7 @@ img{
     
     
     :root{                     /*transform  begins here*/
-    --spacing:10px;
+    --spacing:5px;
     --blur:0px;
     --base:#ffc600;
 }
